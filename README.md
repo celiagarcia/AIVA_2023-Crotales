@@ -11,7 +11,7 @@ Esta herramienta de reconocimiento será integrada en el sistema del cliente que
 ## Dataset
 El conjunto de datos que nos ha proporcionado el cliente está compuesto por 397 imágenes de crotales con sus respectivas etiquetas. Las imágenes son en formato TIF, escala de grises, 640x480, 8 bits.
 
-![example_dataset]()
+![example_dataset](images/example_dataset.jpg)
 
 ## Documentación
 Documentación del proyecto entregada al cliente:
@@ -26,5 +26,5 @@ Documentación del proyecto entregada al cliente:
 ## Resultados
 
 ## Autoras
-- García Fernández, Celia: [Celia](https://github.com/celiagarcia?tab=repositories)
-- Villarrasco Jiménez, Rebeca: [Rebeca](https://github.com/RebekkaVision)
+- [Celia García Fernández](https://github.com/celiagarcia?tab=repositories)
+- [Rebeca Villarrasco Jiménez](https://github.com/RebekkaVision)
