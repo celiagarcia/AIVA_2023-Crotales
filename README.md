@@ -8,7 +8,8 @@ Dentro del actual *Sistema de Identificación de Vacunos*, se nos pide la implem
 
 Este proyecto consiste en desarrollar dicha aplicación, que llamaremos **CrotalReading.exe**, para el reconocimiento de dígitos situados en la parte inferior de los crotales de ganadería vacuna, con ayuda del dataset proporcionado por el cliente.
 
-Esta aplicación será integrada en el actual *Sistema de Identificación de Vacunos* para que en lugar de realizar la lectura de crotales actual, realice la llamada a la aplicación CrotalReading.exe, lea el código de la imagen del crotal y este código se proporcione a su programa de Visual Basic que continuará con el proceso habitual. 
+Esta aplicación será integrada en el actual *Sistema de Identificación de Vacunos* para que en lugar de realizar la lectura de crotales actual, realice la llamada a la aplicación CrotalReading.exe, lea el código de la imagen del crotal y este código se proporcione a su programa de Visual Basic que continuará con el proceso habitual.
+![general_block_diagram](images/general_block_diagram.jpg)
 
 ## Dataset
 El conjunto de datos que nos ha proporcionado el cliente está compuesto por 397 imágenes de crotales con sus respectivas etiquetas. Las imágenes son en formato TIF, escala de grises, 640x480, 8 bits.
@@ -23,7 +24,8 @@ Documentación del proyecto entregada al cliente:
 
     .
     ├── images
-    │        └── example_dataset.jpg
+    │        ├── example_dataset.jpg
+    │        └── general_block_diagram.jpg
     ├── test
     │        └── test.py
     ├── README.md
