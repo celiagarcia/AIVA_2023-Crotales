@@ -25,18 +25,16 @@ Documentación del proyecto entregada al cliente:
     ├── images
     │        └── example_dataset.jpg
     ├── test
-    │        └── tipos_defectos.png
+    │        └── test.py
     ├── README.md
 
 
 ## Test
-Los test unitarios llevados a cabo son:
-- ddd
-- hhh
+[...]
 
 ## Cómo ejecutar la aplicación
 ## Resultados
 ## Autoras
 - :woman_technologist: Celia García Fernández: [celiagarcia](https://github.com/celiagarcia?tab=repositories)
-- :woman_technologist: Rebeca Villarrasco Jiménez: [RebekkaVision](https://github.com/RebekkaVision)
+- :woman_technologist: Rebeca Villarraso Jiménez: [RebekkaVision](https://github.com/RebekkaVision)
 
