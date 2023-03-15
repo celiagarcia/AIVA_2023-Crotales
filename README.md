@@ -29,10 +29,17 @@ Documentación del proyecto entregada al cliente:
     ├── test
     │        └── test.py
     ├── README.md
+    ├── code_detector.py
+    ├── code_recognition.py
+    ├── crotal_code_recognition_main.py
+    ├── image_preprocessing.py
+    ├── main.py
 
 
 ## Test
-[...]
+La aplicación dispone de una serie de tests unitarios diseñados para comprobar su correcto funcionamiento. Se encuentran en la carpeta *test*.
+
+> Nota: Actualmente solo están definidos, aún no están implementados.
 
 ## Cómo ejecutar la aplicación
 ## Resultados
