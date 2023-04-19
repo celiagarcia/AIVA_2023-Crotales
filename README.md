@@ -38,7 +38,8 @@ Documentación del proyecto entregada al cliente:
 
 ## Cómo ejecutar la aplicación
 1. Copiar el fichero CrotalCodeExtractor.exe en el PC dónde se ejecuta la aplicación Visual Basic cliente.
-  Descargar de: https://urjc-my.sharepoint.com/:u:/g/personal/r_villarraso_2021_alumnos_urjc_es/Ea1YMgjxtrpArgxO2WYkzP8BH3ajuyRiYODtGDcfGzcuyg
+  Descargar de:
+  https://urjc-my.sharepoint.com/:u:/g/personal/r_villarraso_2021_alumnos_urjc_es/Ea1YMgjxtrpArgxO2WYkzP8BH3ajuyRiYODtGDcfGzcuyg
 3. En la misma ubicación crear una carpeta nueva por defecto llamarla "Codes".
 4. En la misma ubicación crear una carpeta nueva por defecto llamarla "TestSamples". En esta carpeta se guardarán las imágenes de test.
 5. Abrir la consola Windows (PowerShell o cmd) y situarse en la ubicación del fichero CrotalCodeExtractor.exe.
@@ -53,7 +54,8 @@ CrotalCodeExtractor.exe --image_path='./TestSamples/' --image_name='0001.tif' --
 
 ## Test
 Los test automáticos pueden ejecutarse desde el fichero Testing_CrotalCodeExtractor.exe o bien desde la consola Python con el archivo Testing_CrotalCodeExtractor.py.
-  Descargar de: https://urjc-my.sharepoint.com/:u:/g/personal/r_villarraso_2021_alumnos_urjc_es/EVhQq-Vt6FpJnIU_ka6TUY4BHRofTFd5w0Rm2u9duherLQ
+  Descargar de: 
+  https://urjc-my.sharepoint.com/:u:/g/personal/r_villarraso_2021_alumnos_urjc_es/EVhQq-Vt6FpJnIU_ka6TUY4BHRofTFd5w0Rm2u9duherLQ
 
 ## Resultados
 ## Autoras
