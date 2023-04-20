@@ -58,6 +58,8 @@ Los test automáticos pueden ejecutarse desde el fichero Testing_CrotalCodeExtra
   https://urjc-my.sharepoint.com/:u:/g/personal/r_villarraso_2021_alumnos_urjc_es/EVhQq-Vt6FpJnIU_ka6TUY4BHRofTFd5w0Rm2u9duherLQ
 
 ## Resultados
+![image](https://user-images.githubusercontent.com/127053760/233341397-63ed0567-98aa-4b21-b005-fd9135f72079.png)
+
 ## Autoras
 - :woman_technologist: Celia García Fernández: [celiagarcia](https://github.com/celiagarcia?tab=repositories)
 - :woman_technologist: Rebeca Villarraso Jiménez: [RebekkaVision](https://github.com/RebekkaVision)
