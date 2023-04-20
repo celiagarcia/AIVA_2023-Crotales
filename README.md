@@ -42,18 +42,20 @@ Documentación del proyecto entregada al cliente:
     ├── ProcessImage.py
     ├── README.md
     ├── ReadImage.py
+    ├── requirements.txt
     ├── Testing_CrotalCodeExtractor.py
 
 
 ## Cómo ejecutar la aplicación
-1. Copiar el fichero CrotalCodeExtractor.exe (descargar [aquí](https://urjc-my.sharepoint.com/:u:/g/personal/r_villarraso_2021_alumnos_urjc_es/Ea1YMgjxtrpArgxO2WYkzP8BH3ajuyRiYODtGDcfGzcuygQ)) en el PC dónde se ejecuta la aplicación Visual Basic cliente.
+1. Descargar la librería pytesseract de "https://github.com/UB-Mannheim/tesseract/wiki"
+2. Copiar el fichero CrotalCodeExtractor.exe (descargar [aquí](https://urjc-my.sharepoint.com/:u:/g/personal/r_villarraso_2021_alumnos_urjc_es/Ea1YMgjxtrpArgxO2WYkzP8BH3ajuyRiYODtGDcfGzcuygQ)) en el PC dónde se ejecuta la aplicación Visual Basic cliente.
   
 3. En la misma ubicación crear una carpeta nueva por defecto llamarla "Codes".
 4. En la misma ubicación crear una carpeta nueva por defecto llamarla "TestSamples". En esta carpeta se guardarán las imágenes de test.
 5. Abrir la consola Windows (PowerShell o cmd) y situarse en la ubicación del fichero CrotalCodeExtractor.exe.
 6. Introducir la siguiente línea de comando por defecto:
 
-`$ CrotalCodeExtractor.exe --image_path='./images_samples/' --image_name='0001.tif' --output_path='./Codes/' --pytesseract_path='C:\\Users\\bfzjs\\AppData\\Local\\Programs\\Tesseract-OCR\\tesseract.exe`
+`$ CrotalCodeExtractor.exe --image_path='./TestSamples/' --image_name='0001.tif' --output_path='./Codes/' --pytesseract_path='C:\\Users\\bfzjs\\AppData\\Local\\Programs\\Tesseract-OCR\\tesseract.exe`
 
 7. Si alguno de los parámetros anteriores, no es indicado "por defecto" o la ruta del ejecutable de tesseract.exe está en otra ubicación, indicarlo en los parámetros:
 ```
@@ -66,9 +68,9 @@ Documentación del proyecto entregada al cliente:
 
 `$ git clone https://github.com/celiagarcia/AIVA_2023-Crotales.git`
 
-descargando la librería pytesseract de "https://github.com/UB-Mannheim/tesseract/wiki", y desde la consola Python con los mismos parámetros ejecutando el archivo principal CrotalCodeExtractor.py:
+y desde la consola Python con los mismos parámetros ejecutando el archivo principal CrotalCodeExtractor.py:
 
-`$ python CrotalCodeExtractor.py --image_path='./images_samples/' --image_name='0001.tif' --output_path='./Codes/' --pytesseract_path='C:\\Users\\bfzjs\\AppData\\Local\\Programs\\Tesseract-OCR\\tesseract.exe`
+`$ python CrotalCodeExtractor.py --image_path='./TestSamples/' --image_name='0001.tif' --output_path='./Codes/' --pytesseract_path='C:\\Users\\bfzjs\\AppData\\Local\\Programs\\Tesseract-OCR\\tesseract.exe`
 
 ## Test
 El sistema dispone de una serie de pruebas uitarias preparadas para comprobar el correcto funcionamiento del mismo. Se trata de test automáticos que pueden ejecutarse desde el fichero Testing_CrotalCodeExtractor.exe (descargar [aquí](https://urjc-my.sharepoint.com/:u:/g/personal/r_villarraso_2021_alumnos_urjc_es/EVhQq-Vt6FpJnIU_ka6TUY4BHRofTFd5w0Rm2u9duherLQ))
