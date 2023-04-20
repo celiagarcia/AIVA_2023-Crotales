@@ -27,7 +27,7 @@ Documentación del proyecto entregada al cliente:
     ├── images_readme
     │        ├── example_dataset.jpg
     │        └── general_block_diagram.jpg
-    ├── images_samples
+    ├── TestSamples
     │        ├── 0001.TIF
              ├── 0001.jpg
              ├── 0002.TIF
