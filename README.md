@@ -18,8 +18,8 @@ El conjunto de datos que nos ha proporcionado el cliente está compuesto por 397
 
 ##  Documentación
 Documentación del proyecto entregada al cliente:
-- :page_facing_up: Documento de Requisitos del Sistema (DRS) y Presupuesto.
-- :page_facing_up: Documento de Diseño y Funcionamiento del Sistema.
+- :page_facing_up: Documento de Requisitos del Sistema (DRS) y Presupuesto (descargar [aquí](https://urjc-my.sharepoint.com/:w:/r/personal/r_villarraso_2021_alumnos_urjc_es/Documents/PRACTICA_CROTALES/Practica_I.docx?d=w6f9da9c057c44725b28a1b95411b6c6d&csf=1&web=1&e=69lVZi)).
+- :page_facing_up: Documento de Diseño y Funcionamiento del Sistema (descargar [aquí](https://urjc-my.sharepoint.com/:w:/r/personal/r_villarraso_2021_alumnos_urjc_es/Documents/PRACTICA_CROTALES/Practica_II_v0.2.docx?d=wb1fc1ef3005942f9a2202af5c023f746&csf=1&web=1&e=xHx8Bt)).
 
 ## Estructura del proyecto
 
@@ -60,7 +60,7 @@ Documentación del proyecto entregada al cliente:
 
 `$ git clone https://github.com/celiagarcia/AIVA_2023-Crotales.git`
 
-y desde la consola Python con los mismos parámetros ejecutando el archivo principal CrotalCodeExtractor.py:
+descargando la librería pytesseract de "https://github.com/UB-Mannheim/tesseract/wiki", y desde la consola Python con los mismos parámetros ejecutando el archivo principal CrotalCodeExtractor.py:
 
 `$ python CrotalCodeExtractor.py --image_path='./TestSamples/' --image_name='0001.tif' --output_path='./Codes/' --pytesseract_path='C:\\Users\\bfzjs\\AppData\\Local\\Programs\\Tesseract-OCR\\tesseract.exe`
 
