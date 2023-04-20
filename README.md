@@ -45,6 +45,11 @@ Documentación del proyecto entregada al cliente:
     ├── requirements.txt
     ├── Testing_CrotalCodeExtractor.py
 
+## Diagrama de Despliegue
+
+Se dispone de una cámara conectada a un ordenador. La cámara tiene conexión a un sensor que le indica cuando realizar una captura de la imagen de un crotal. El ordenador está conectado vía ethernet a una base de datos de un ordenador externo.
+
+![diagrama_despliegue](images/diagrama_despliegue.jpg)
 
 ## Cómo ejecutar la aplicación
 1. Descargar la librería pytesseract de "https://github.com/UB-Mannheim/tesseract/wiki"
