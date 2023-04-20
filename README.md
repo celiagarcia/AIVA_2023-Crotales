@@ -65,7 +65,11 @@ descargando la librería pytesseract de "https://github.com/UB-Mannheim/tesserac
 `$ python CrotalCodeExtractor.py --image_path='./TestSamples/' --image_name='0001.tif' --output_path='./Codes/' --pytesseract_path='C:\\Users\\bfzjs\\AppData\\Local\\Programs\\Tesseract-OCR\\tesseract.exe`
 
 ## Test
-Los test automáticos pueden ejecutarse desde el fichero Testing_CrotalCodeExtractor.exe (descargar [aquí](https://urjc-my.sharepoint.com/:u:/g/personal/r_villarraso_2021_alumnos_urjc_es/EVhQq-Vt6FpJnIU_ka6TUY4BHRofTFd5w0Rm2u9duherLQ)) o bien desde la consola Python con el archivo Testing_CrotalCodeExtractor.py:
+El sistema dispone de una serie de pruebas uitarias preparadas para comprobar el correcto funcionamiento del mismo. Se trata de test automáticos que pueden ejecutarse desde el fichero Testing_CrotalCodeExtractor.exe (descargar [aquí](https://urjc-my.sharepoint.com/:u:/g/personal/r_villarraso_2021_alumnos_urjc_es/EVhQq-Vt6FpJnIU_ka6TUY4BHRofTFd5w0Rm2u9duherLQ))
+
+`$ Testing_CrotalCodeExtractor.exe`
+
+o bien desde la consola Python con el archivo Testing_CrotalCodeExtractor.py:
 
 `$ python Testing_CrotalCodeExtractor.py`
 
