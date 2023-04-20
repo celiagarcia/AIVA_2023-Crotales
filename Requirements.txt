@@ -1,0 +1,15 @@
+Python =>3.7
+Pyinstaller
+conda install -c conda-forge pyinstaller
+pip install pyinstaller
+EasyGUI
+conda install -c conda-forge easygui
+pip install easygui
+argparse
+conda install -c conda-forge argparse
+pip install argparse
+OpenCV =>4.6.0
+conda install -c conda-forge opencv
+pip install opencv-python
+pytesseract =>0.3.10
+conda install -c conda-forge pytesseract
