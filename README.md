@@ -24,9 +24,15 @@ Documentación del proyecto entregada al cliente:
 ## Estructura del proyecto
 
     .
-    ├── images
+    ├── images_readme
     │        ├── example_dataset.jpg
     │        └── general_block_diagram.jpg
+    ├── images_samples
+    │        ├── 0001.TIF
+             ├── 0001.jpg
+             ├── 0002.TIF
+             ├── ...
+    │        └── 0049.TIF
     ├── AIVA_2023-Crotales-1.0.zip
     ├── AIVA_2023-Crotales-BETA.1.zip
     ├── CrotalCodeExtractor.py
@@ -47,7 +53,7 @@ Documentación del proyecto entregada al cliente:
 5. Abrir la consola Windows (PowerShell o cmd) y situarse en la ubicación del fichero CrotalCodeExtractor.exe.
 6. Introducir la siguiente línea de comando por defecto:
 
-`$ CrotalCodeExtractor.exe --image_path='./TestSamples/' --image_name='0001.tif' --output_path='./Codes/' --pytesseract_path='C:\\Users\\bfzjs\\AppData\\Local\\Programs\\Tesseract-OCR\\tesseract.exe`
+`$ CrotalCodeExtractor.exe --image_path='./images_samples/' --image_name='0001.tif' --output_path='./Codes/' --pytesseract_path='C:\\Users\\bfzjs\\AppData\\Local\\Programs\\Tesseract-OCR\\tesseract.exe`
 
 7. Si alguno de los parámetros anteriores, no es indicado "por defecto" o la ruta del ejecutable de tesseract.exe está en otra ubicación, indicarlo en los parámetros:
 ```
@@ -62,7 +68,7 @@ Documentación del proyecto entregada al cliente:
 
 descargando la librería pytesseract de "https://github.com/UB-Mannheim/tesseract/wiki", y desde la consola Python con los mismos parámetros ejecutando el archivo principal CrotalCodeExtractor.py:
 
-`$ python CrotalCodeExtractor.py --image_path='./TestSamples/' --image_name='0001.tif' --output_path='./Codes/' --pytesseract_path='C:\\Users\\bfzjs\\AppData\\Local\\Programs\\Tesseract-OCR\\tesseract.exe`
+`$ python CrotalCodeExtractor.py --image_path='./images_samples/' --image_name='0001.tif' --output_path='./Codes/' --pytesseract_path='C:\\Users\\bfzjs\\AppData\\Local\\Programs\\Tesseract-OCR\\tesseract.exe`
 
 ## Test
 El sistema dispone de una serie de pruebas uitarias preparadas para comprobar el correcto funcionamiento del mismo. Se trata de test automáticos que pueden ejecutarse desde el fichero Testing_CrotalCodeExtractor.exe (descargar [aquí](https://urjc-my.sharepoint.com/:u:/g/personal/r_villarraso_2021_alumnos_urjc_es/EVhQq-Vt6FpJnIU_ka6TUY4BHRofTFd5w0Rm2u9duherLQ))
